@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="Barnetelling">Barnetelling</p>
+    <h1 id="Antall gutter"></h1>
+    <h1 id="Antall jenter"></h1>
+
+    <script>
+        const barn1 = "gutt"
+        const barn2 = "gutt"
+        const barn3 = "jente"
+
+        let antall_gutter = 0
+        let antall_jenter = 0
+
+        const textGutter = "Antallet gutter er:"
+        const textJenter = "Antallet jenter er:"
+        
+        //Telling av gutter
+        if (barn1 === "gutt") {
+           antall_gutter = antall_gutter +1 
+           document.getElementById("Antall gutter").innerHTML = textGutter + antall_gutter;
+        }
+        else {
+            antall_gutter = antall_gutter +0
+            document.getElementById("Antall gutter").innerHTML =  textGutter + antall_gutter;
+        }
+
+        if (barn2 === "gutt") {
+           antall_gutter = antall_gutter +1 
+           document.getElementById("Antall gutter").innerHTML =  textGutter + antall_gutter;
+        }
+        else {
+            antall_gutter = antall_gutter +0
+            document.getElementById("Antall gutter").innerHTML =  textGutter + antall_gutter;
+        }
+
+        if (barn3 === "gutt") {
+           antall_gutter = antall_gutter +1 
+           document.getElementById("Antall gutter").innerHTML =  textGutter + antall_gutter;
+        }
+        else {
+            antall_gutter = antall_gutter +0
+            document.getElementById("Antall gutter").innerHTML =  textGutter + antall_gutter;
+        }
+
+        //Telling av jenter
+        if (barn1 === "jente") {
+           antall_jenter = antall_jenter +1 
+           document.getElementById("Antall jenter").innerHTML = textJenter + antall_jenter;
+        }
+        else {
+            antall_jenter = antall_jenter +0
+            document.getElementById("Antall jenter").innerHTML = textJenter + antall_jenter;
+        }
+        if (barn2 === "jente") {
+           antall_jenter = antall_jenter +1 
+           document.getElementById("Antall jenter").innerHTML = textJenter + antall_jenter;
+        }
+        else {
+            antall_jenter = antall_jenter +0
+            document.getElementById("Antall jenter").innerHTML = textJenter + antall_jenter;
+        }
+        if (barn3 === "jente") {
+           antall_jenter = antall_jenter +1 
+           document.getElementById("Antall jenter").innerHTML = textJenter + antall_jenter;
+        }
+        else {
+            antall_jenter = antall_jenter +0
+            document.getElementById("Antall jenter").innerHTML = textJenter + antall_jenter;
+        }
+        
+
+
+    </script>
+</body>
+</html>
